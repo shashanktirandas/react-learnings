@@ -24,7 +24,7 @@ const App = () => {
       {/* <Section1 notes={notes} setNotes={setNotes} />
       <Section2 notes={notes} setNotes={setNotes}/>
        */}
-      
+       
 
     </div>
   )

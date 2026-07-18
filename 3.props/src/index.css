@@ -1,0 +1,115 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  width: 100%;
+  height: 100%;
+}
+button{
+  all: unset;
+  cursor: pointer;
+}
+body{
+  background-color: black;
+}
+.parent{
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 30px;
+  font-family: sans-serif
+  
+}
+.card{
+  width: 320px;
+  min-height: 380px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  padding: 23px;
+  margin: 20px;
+}
+.card .main{
+  width: 100%;
+}
+.card .main .top{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card .main .top img{
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 1px solid #bbbbbb71;
+
+}
+.card .main .top button{
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: #7e7e7e;
+  border-radius: 5px;
+  padding: 5px 10px;
+  border: 1px solid #cdcdcd;
+  gap: 2px;
+}
+.card .main .top button svg{
+  font-size: 15px;
+}
+
+.card .main .middle{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+  gap: 10px;
+}
+.card .main .middle h3{
+  font-size: 20px;
+}
+.card .main .middle h4 span{
+  font-size: 10px;
+  color: #cdcdcd;
+}
+.card .main .middle .tag{
+  display: flex;
+  gap: 5px;
+}
+.card .main .middle .tag button{
+  padding: 5px 10px;
+  background-color: #cdcdcd83;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+.card .bottom{
+  display: flex;
+  justify-content: space-between;
+  border-top: 2px solid #cdcdcd89;
+  width: 100%;
+  padding-top: 25px;
+  align-items: center;
+}
+
+.card .bottom .salary h6{
+  margin-top: 3px;
+  color: #9a9a9ab3;
+}
+.card .bottom button{
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  padding: 8px 18px;
+  font-size: 13px;
+}

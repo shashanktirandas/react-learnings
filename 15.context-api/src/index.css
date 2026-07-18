@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+body{
+  background-color: black;
+  color: white;
+  font-family: "Sora",sans-serif;
+}
+.light {
+  @apply w-full px-10 py-2 flex justify-between bg-gray-200 text-black;
+}
+.dark {
+  @apply w-full px-10 py-2 flex justify-between bg-gray-500 text-white ;
+}

@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+body{
+    background-color: rgb(202, 175, 255);
+    background-color: #c8c8c8;
+    background-color: white;
+    font-family: "Sora", sans-serif;
+    
+}
+#right::-webkit-scrollbar{
+        display: none;
+}
